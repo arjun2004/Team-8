@@ -3,6 +3,8 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import App from "./App";
+import { Outlet, Link, useNavigate } from "react-router-dom";
+
 function Dash() {
   return (
     <>
@@ -91,7 +93,9 @@ function Dash() {
             tour, television and can be heard on his CD “7”.
             <br />
             <br />
-            <button className="button-27 cnt">Book your ticket!</button>
+            <Link to={`/pay`}>
+              <button className="button-27 cnt">Book your ticket!</button>
+            </Link>
           </p>
         </div>
       </div>

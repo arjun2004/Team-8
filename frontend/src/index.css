@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=PT+Sans&family=Sofia+Sans+Condensed:wght@300&display=swap");
+
 @font-face {
   font-family: defFont;
   src: url(font.ttf);
@@ -10,7 +12,7 @@
 }
 
 :root {
-  font-family: defFont;
+  font-family: defFont, "PT Sans", sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -25,7 +27,7 @@
   -webkit-text-size-adjust: 100%;
 }
 h1 {
-  font-family: boldFont;
+  font-family: boldFont, "PT Sans", sans-serif;
   text-decoration: solid;
   size: 100px;
 }
