@@ -122,3 +122,25 @@ h2 {
   text-align: left;
   size: 2rem;
 }
+h3 {
+  text-align: left;
+}
+p {
+  text-align: left;
+}
+
+.game {
+  color: #f2f2f2;
+  background-color: #ef5350;
+  padding: 35px;
+  border-radius: 25px;
+}
+.food {
+  color: #f2f2f2;
+  background-color: #1a1a1a;
+  padding: 35px;
+  border-radius: 25px;
+}
+.music {
+  padding: 35px;
+}

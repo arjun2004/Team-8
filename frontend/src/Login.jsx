@@ -8,7 +8,7 @@ import { Outlet, Link, useNavigate } from "react-router-dom";
 function Login() {
   return (
     <>
-      <h1>PokeFest</h1>
+      <h1>PokéFest</h1>
       <div class="main-login-form">
         <form action="#" method="POST">
           <label for="Username">Username</label>

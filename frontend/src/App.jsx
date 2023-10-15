@@ -7,21 +7,23 @@ import { Outlet, Link, useNavigate } from "react-router-dom";
 function App() {
   return (
     <>
-      <h1>PokeFest</h1>
+      <h1>PokéFest</h1>
       <div className="container">
         <div class="image">
           <img src="poki.jpeg" />
         </div>
         <div class="text">
-          <h1>Description</h1>
+          <h1>
+            “Discover, Play, and Unleash the Magic! Catch the Pokémon Fever at
+            the Ultimate Pokémon Festival.”
+          </h1>
         </div>
       </div>
-      <br />
-      <br />
+
       <div className="bottom">
         <Link to={`/login`}>
           <button class="button-27" role="button">
-            Grab your tickets
+            Grab your spots !
           </button>
         </Link>
       </div>
