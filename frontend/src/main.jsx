@@ -6,6 +6,8 @@ import "./index.css";
 import Dash from "./Dash.jsx";
 import Login from "./Login.jsx";
 import Pay from "./Pay.jsx";
+import "./fonts/bold.ttf";
+import "./fonts/font.ttf";
 const router = createBrowserRouter([
   {
     path: "/",

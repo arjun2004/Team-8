@@ -1,14 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=PT+Sans&family=Sofia+Sans+Condensed:wght@300&display=swap");
 
 @font-face {
-  font-family: defFont;
-  src: url(font.ttf);
+  font-family: "defFont";
+  src: local("defFont"), url("./fonts/font.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: boldFont;
-  size: 100px;
-  src: url(bold.ttf);
+  font-family: "boldFont";
+  src: local("boldFont"), url("./fonts/bold.ttf") format("truetype");
 }
 
 :root {
