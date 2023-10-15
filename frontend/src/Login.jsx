@@ -4,11 +4,16 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import App from "./App";
 import { Outlet, Link, useNavigate } from "react-router-dom";
+import { MdCatchingPokemon } from "react-icons/md";
 
 function Login() {
   return (
     <>
-      <h1>PokéFest</h1>
+      <h1>
+        {" "}
+        <MdCatchingPokemon />
+        PokéFest
+      </h1>
       <div class="main-login-form">
         <form action="#" method="POST">
           <label for="Username">Username</label>

@@ -4,11 +4,16 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import App from "./App";
 import { Outlet, Link, useNavigate } from "react-router-dom";
+import { MdCatchingPokemon } from "react-icons/md";
 
 function Dash() {
   return (
     <>
-      <h1>PokéFest Events</h1>
+      <h1>
+        {" "}
+        <MdCatchingPokemon />
+        PokéFest Events
+      </h1>
       <div>
         <div className="game">
           <h2>Games</h2>

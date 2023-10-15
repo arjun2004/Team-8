@@ -3,11 +3,14 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import { Outlet, Link, useNavigate } from "react-router-dom";
-
+import { MdCatchingPokemon } from "react-icons/md";
 function App() {
   return (
     <>
-      <h1>PokéFest</h1>
+      <h1>
+        <MdCatchingPokemon />
+        PokéFest
+      </h1>
       <div className="container">
         <div class="image">
           <img src="poki.jpeg" />
