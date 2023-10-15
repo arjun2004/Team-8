@@ -12,7 +12,7 @@
 }
 
 :root {
-  font-family: defFont, "PT Sans", sans-serif;
+  font-family: defFont, "PT Sans", arial;
   line-height: 1.5;
   font-weight: 400;
 
@@ -27,7 +27,7 @@
   -webkit-text-size-adjust: 100%;
 }
 h1 {
-  font-family: boldFont, "PT Sans", sans-serif;
+  font-family: boldFont, "PT Sans", arial;
   text-decoration: solid;
   size: 100px;
 }
