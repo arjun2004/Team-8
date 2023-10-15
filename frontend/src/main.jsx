@@ -5,6 +5,7 @@ import App from "./App.jsx";
 import "./index.css";
 import Dash from "./Dash.jsx";
 import Login from "./Login.jsx";
+import Pay from "./Pay.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: "dashboard/",
     element: <Dash />,
+  },
+  {
+    path: "pay/",
+    element: <Pay />,
   },
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(

@@ -89,6 +89,9 @@ function Dash() {
             beat-boxed with Aerosmith on tour and on the Howard Stern re-mix of
             the hit single “Pink” and has performed with Enrique Iglesias on
             tour, television and can be heard on his CD “7”.
+            <br />
+            <br />
+            <button className="button-27 cnt">Book your ticket!</button>
           </p>
         </div>
       </div>
