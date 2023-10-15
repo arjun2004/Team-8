@@ -9,11 +9,12 @@ import { MdCatchingPokemon } from "react-icons/md";
 function Dash() {
   return (
     <>
-      <h1>
-        {" "}
-        <MdCatchingPokemon />
-        PokéFest Events
-      </h1>
+      <Link className="dec" to={`/`}>
+        <h1>
+          <MdCatchingPokemon />
+          PokéFest
+        </h1>
+      </Link>
       <div>
         <div className="game">
           <h2>Games</h2>

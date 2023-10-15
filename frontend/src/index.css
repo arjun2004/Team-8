@@ -336,3 +336,7 @@ button:focus {
   background-color: #42a5f5;
   border-radius: 25px;
 }
+.dec {
+  text-decoration: none;
+  color: #1a1a1a;
+}

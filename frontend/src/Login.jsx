@@ -9,11 +9,12 @@ import { MdCatchingPokemon } from "react-icons/md";
 function Login() {
   return (
     <>
-      <h1>
-        {" "}
-        <MdCatchingPokemon />
-        PokéFest
-      </h1>
+      <Link className="dec" to={`/`}>
+        <h1>
+          <MdCatchingPokemon />
+          PokéFest
+        </h1>
+      </Link>
       <div class="main-login-form">
         <form action="#" method="POST">
           <label for="Username">Username</label>

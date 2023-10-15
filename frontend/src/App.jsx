@@ -7,10 +7,12 @@ import { MdCatchingPokemon } from "react-icons/md";
 function App() {
   return (
     <>
-      <h1>
-        <MdCatchingPokemon />
-        PokéFest
-      </h1>
+      <Link className="dec" to={`/`}>
+        <h1>
+          <MdCatchingPokemon />
+          PokéFest
+        </h1>
+      </Link>
       <div className="container">
         <div class="image">
           <img src="poki.jpeg" />

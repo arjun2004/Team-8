@@ -9,11 +9,12 @@ function Pay() {
   return (
     <>
       <div>
-        <h1>
-          {" "}
-          <MdCatchingPokemon />
-          PokéFest
-        </h1>
+        <Link className="dec" to={`/`}>
+          <h1>
+            <MdCatchingPokemon />
+            PokéFest
+          </h1>
+        </Link>
         <div class="wrapper poy">
           <div class="container1">
             <form action="">
@@ -51,6 +52,7 @@ function Pay() {
                 <div>
                   <label for="card-num">Credit Card No.</label>&nbsp;
                   <input type="text" name="card-num" />
+                  <br />
                   <label for="card-num">Exp</label>&nbsp;
                   <input type="text" name="expire" />
                   <label for="card-num">CCV</label>&nbsp;
